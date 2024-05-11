@@ -1,0 +1,54 @@
+.map-container {
+    width: 80vw;
+    height: 100vh;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+ul li {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+}
+
+ul li button {
+    width: 100px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    max-width: 20vw;
+    overflow-y: auto;
+}
+
+.list ul button {
+    max-width: 50%;
+}
+
+.custom-marker {
+    background-color: #ff0000;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.marker {
+    color: #fff;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 22px;
+    background-image: url("../../images/pin.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
